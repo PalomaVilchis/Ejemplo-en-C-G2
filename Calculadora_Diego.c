@@ -3,6 +3,9 @@
  *Autor: Diego Antonio Romero Palacios
  *Fecha: 11/08/2021
  *
+ * Modificado por: Diego Antonio Romero Palacios
+ * Fecha:15/08/2021
+ * 
  *Es un programa que realiza las operaciones basicas apartir de dos numeros enteros dados
  *que son suma, resta, multiplicacion y division .
  *
@@ -27,11 +30,13 @@ int main(){
     do{
      menu(); //muestra el menu
      scanf("%d",&opcion); 
-     if(opcion!=5){  
-     operacion(opcion);
-     }else{
-	printf("\nSaliendo\n");	
-	}
+     if(opcion==5){  
+        printf("\nSaliendo\n");	
+     }else if(opcion>=1 && opcion<=4){
+	    operacion(opcion);
+	 }else{
+         printf("\nERROR\nOpcion invalida\n");
+     }
     }while(opcion != 5);
     return 0;
 }

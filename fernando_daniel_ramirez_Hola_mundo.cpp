@@ -1,3 +1,7 @@
+/*
+ * Por Fernando Daniel Ramirez
+*/
+
 #include <stdio.h>
 
 int main( ) {
