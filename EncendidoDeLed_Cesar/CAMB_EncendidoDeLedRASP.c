@@ -6,10 +6,10 @@
  * cambiar dependiendo del circuito del que utilice este programa
  * 
  * Componente     Pin Raspberry Pi 3     Estados lógicos
- * led 1-------GPIO 4---------------------On=>HIGH, Off=>LOW
- * led 2-------GPIO 2---------------------On=>HIGH, Off=>LOW
- * led 3-------GPIO 14--------------------On=>HIGH, Off=>LOW
- * led 4-------GPIO 15--------------------On=>HIGH, Off=>LOW
+ * led 1-------GPIO 5---------------------On=>HIGH, Off=>LOW
+ * led 2-------GPIO 6---------------------On=>HIGH, Off=>LOW
+ * led 3-------GPIO 13--------------------On=>HIGH, Off=>LOW
+ * led 4-------GPIO 19--------------------On=>HIGH, Off=>LOW
  */
 
 /*Se incluyen las librerias*/
